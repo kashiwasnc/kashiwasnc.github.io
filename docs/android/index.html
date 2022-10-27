@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>my learning history | Android</title>
+  </head>
+
+  <body class="container">
+    <header>
+      <!-- Navbar start -->
+      <nav
+        class="navbar navbar-expand-md navbar-light"
+        style="background-color: #b2dfdb"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../">my learning history</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse mx-2"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mx-auto mb-0 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../web1/">JavaScript</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../web2/">PHP, Firebase</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active disabled" href="../android/"
+                  >Android</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar end -->
+      <!-- Breadcrumb start -->
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Android</li>
+        </ol>
+      </nav>
+      <!-- Breadcrumb end -->
+    </header>
+
+    <main>
+      <div>
+        <!-- 作例 start -->
+        <div class="my-3 p-3 shadow">
+          <h3>作例</h3>
+          <div class="card mb-3">
+            <h5 class="card-header">the Lemonade app project</h5>
+            <div class="card-body">
+              <p class="card-text">
+                『Android Basics in Kotlin』の
+                <a
+                  href="https://developer.android.com/courses/pathways/android-basics-kotlin-four"
+                  >the Lemonade app project</a
+                >
+                の演習で作成した、レモンを絞ってレモネードを作るだけのシンプルな1画面アプリです
+              </p>
+              <p>
+                アプリの状態を含む変数（select、squeezeなど）によりアプリのUI（画像とテキストの設定）が決定され、次々に画面遷移します
+              </p>
+              <div class="image-set">
+                <a
+                  href="./img/lemonade-1.png"
+                  data-title="スタート画面（レモンの絵をクリックすると画面遷移）"
+                  data-lightbox="lemonade"
+                >
+                  <img
+                    class="tmb-img tmb-img-h"
+                    src="./img/lemonade-1.png"
+                    alt="レモンが３つ実っている木のイラスト"
+                /></a>
+                <a
+                  href="./img/lemonade-3.png"
+                  data-title="レモンを絞りましょう（カットレモンの絵を何度かクリックすると画面遷移）"
+                  data-lightbox="lemonade"
+                >
+                  <img
+                    class="tmb-img tmb-img-h"
+                    src="./img/lemonade-3.png"
+                    alt="カットレモンのイラスト"
+                /></a>
+                <a
+                  href="./img/lemonade-4.png"
+                  data-title="レモネードが出来ました！（レモネードの絵をクリックすると画面遷移）"
+                  data-lightbox="lemonade"
+                >
+                  <img
+                    class="tmb-img tmb-img-h"
+                    src="./img/lemonade-4.png"
+                    alt="一杯のレモネードのイラスト"
+                /></a>
+                <a
+                  href="./img/lemonade-5.png"
+                  data-title="レモネードを飲み干しました（コップの絵をクリックするとスタート画面に戻る）"
+                  data-lightbox="lemonade"
+                >
+                  <img
+                    class="tmb-img tmb-img-h"
+                    src="./img/lemonade-5.png"
+                    alt="空のコップのイラスト"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h5 class="card-header">the Dogglers app project</h5>
+            <div class="card-body">
+              <p class="card-text">
+                『Android Basics in Kotlin』の
+                <a
+                  href="https://developer.android.com/courses/pathways/android-basics-kotlin-unit-2-pathway-3"
+                  >the Dogglers app project</a
+                >
+                の演習で作成した、Google社員が飼っている犬たちのリストを表示するアプリです
+              </p>
+              <p>
+                画面表示にRecyclerViewを利用し、データを表示するAdapterやビューをバインドするViewHolderを適切に用意することで、3通りの画面レイアウトを効率的に実現しています
+              </p>
+              <div class="image-set">
+                <a
+                  href="./img/dogglers-0.png"
+                  data-title="最初の画面です。Dogglersリストの画面レイアウトを3つの内から選びます"
+                  data-lightbox="dogglers"
+                >
+                  <img
+                    class="tmb-img tmb-img-h"
+                    src="./img/dogglers-0.png"
+                    alt="最初の画面、３つの画面レイアウト選択ボタンが並ぶ"
+                /></a>
+                <a
+                  href="./img/dogglers-v.png"
+                  data-title="垂直レイアウト画面イメージ"
+                  data-lightbox="dogglers"
+                >
+                  <img
+                    class="tmb-img tmb-img-h"
+                    src="./img/dogglers-v.png"
+                    alt="垂直レイアウト画面"
+                /></a>
+                <a
+                  href="./img/dogglers-h.png"
+                  data-title="水平レイアウト画面イメージ"
+                  data-lightbox="dogglers"
+                >
+                  <img
+                    class="tmb-img tmb-img-h"
+                    src="./img/dogglers-h.png"
+                    alt="水平レイアウト画面"
+                /></a>
+                <a
+                  href="./img/dogglers-g.png"
+                  data-title="グリッドレイアウト画面イメージ"
+                  data-lightbox="dogglers"
+                >
+                  <img
+                    class="tmb-img tmb-img-h"
+                    src="./img/dogglers-g.png"
+                    alt="グリッドレイアウト画面"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 作例 end -->
+        <div class="my-3 p-3 shadow">
+          <h3>開発環境</h3>
+          <ul>
+            <li>
+              Windows 10
+              <ul>
+                <li>Android Studio Chipmunk</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="my-3 p-3 shadow">
+          <h3>教材</h3>
+          <ul>
+            <li>
+              はじめてのAndroidプログラミング改訂版<br />
+              （著者：金田浩明　出版社：SBクリエイティブ）
+            </li>
+            <li>
+              <a
+                href="https://developer.android.com/courses/android-basics-kotlin/course"
+                >Android Basics in Kotlin</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Breadcrumb start -->
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Android</li>
+        </ol>
+      </nav>
+      <!-- Breadcrumb end -->
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- lightbox2 -->
+    <link rel="stylesheet" href="../assets/css/lightbox.css" />
+    <script src="../assets/js/lightbox-plus-jquery.js"></script>
+  </body>
+</html>
+
+<style>
+  /* for lightbox2 */
+  .tmb-img {
+    margin: 1rem;
+    width: 10rem;
+    border-radius: 1rem;
+    box-shadow: 0.4rem 0.4rem 1rem #999;
+  }
+
+  .tmb-img-h {
+    width: 5rem;
+  }
+</style>

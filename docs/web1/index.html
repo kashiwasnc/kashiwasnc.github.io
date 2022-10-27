@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>my learning history | JavaScript</title>
+  </head>
+
+  <body class="container">
+    <header>
+      <!-- Navbar START -->
+      <div>
+        <nav
+          class="navbar navbar-expand-md navbar-light"
+          style="background-color: #b2dfdb"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../">my learning history</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse mx-3"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav mx-auto mb-0 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active disabled" href="../web1/"
+                    >JavaScript</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../web2/">PHP, Firebase</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../android/">Android</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Navbar END -->
+      <!-- Breadcrumb start -->
+      <div>
+        <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              JavaScript
+            </li>
+          </ol>
+        </nav>
+      </div>
+      <!-- Breadcrumb end -->
+    </header>
+
+    <main>
+      <div>
+        <div class="my-3 p-3 shadow">
+          <h3>作例</h3>
+          <div class="card mb-3">
+            <h5 class="card-header">Currency Calculator</h5>
+            <div class="card-body">
+              <p class="card-text">
+                為替レートAPIを利用して簡単な両替を行うアプリです
+              </p>
+              <a
+                href="./img/zzz/currcalc.png"
+                data-title="Currency Calculator"
+                data-lightbox="currcalc"
+              >
+                <img
+                  class="tmb-img"
+                  src="./img//currcalc-tmb.png"
+                  alt="為替アプリイメージ"
+              /></a>
+              <p>
+                <a
+                  href="https://github.com/kashiwasnc/pf/storage/currency-calc/"
+                  >GitHubでコードを見る</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h5 class="card-header">weather info</h5>
+            <div class="card-body">
+              <p class="card-text">
+                天気予報APIから取得した一週間分の予報をグラフ表示するアプリです
+              </p>
+              <a
+                href="./img/zzz/forecast.png"
+                data-title="weather info"
+                data-lightbox="forecast"
+              >
+                <img
+                  class="tmb-img"
+                  src="./img/forecast-tmb.png"
+                  alt="天気予報アプリイメージ"
+              /></a>
+              <p>
+                <a
+                  href="https://github.com/kashiwasnc/pf/storage/weather-forecast/"
+                  >GitHubでコードを見る</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="my-3 p-3 shadow">
+          <h3>開発環境</h3>
+          <ul>
+            <li>
+              Windows 10
+              <ul>
+                <li>Visual Studio Code</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="my-3 p-3 shadow">
+          <h3>教材</h3>
+          <ul>
+            <li>
+              よくわかるHTML5+CSS3の教科書<br />
+              （著者：大藤幹 出版社：マイナビ出版）
+            </li>
+            <li>
+              HTML+CSSコーディングの強化書<br />
+              （著者：草野あけみ 出版社：エムディエヌコーポレーション）
+            </li>
+            <li>
+              JavaScriptつみあげトレーニングブック<br />
+              （著者：リブロワークス　監修：中川幸哉　発行所：株式会社マイナビ出版）
+            </li>
+            <li>
+              <a href="https://jsprimer.net/"
+                >JavaScript Primer 迷わないための入門書</a
+              ><br />
+              （著者：azu, Suguru Inatomi）
+            </li>
+            <li>
+              プロフェッショナルWebプログラミング Vue.js<br />
+              （著者：山田典明、長澤賢、関口勇樹
+              出版社：エムディエヌコーポレーション）
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Breadcrumb start -->
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">JavaScript</li>
+        </ol>
+      </nav>
+      <!-- Breadcrumb end -->
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- lightbox2 -->
+    <link rel="stylesheet" href="../assets/css/lightbox.css" />
+    <script src="../assets/js/lightbox-plus-jquery.js"></script>
+  </body>
+</html>
+
+<style>
+  /* for lightbox2 */
+  .tmb-img {
+    margin: 1rem;
+    width: 10rem;
+    border-radius: 1rem;
+    box-shadow: 0.4rem 0.4rem 1rem #999;
+  }
+
+  .tmb-img-h {
+    width: 5rem;
+  }
+</style>
