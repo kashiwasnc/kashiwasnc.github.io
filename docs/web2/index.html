@@ -11,72 +11,70 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!-- lightbox2 CSS -->
+    <link rel="stylesheet" href="../assets/css/lightbox.css" />
+    <style>
+      .tmb-img {
+        margin: 1rem;
+        width: 40%;
+        /* border-radius: 1rem; */
+        box-shadow: 0.4rem 0.4rem 1rem #999;
+      }
+    </style>
+
     <title>my learning history | JavaScript</title>
   </head>
 
-  <body class="container">
+  <body style="max-width: 720px">
     <header>
       <!-- Navbar START -->
-      <div>
-        <nav
-          class="navbar navbar-expand-md navbar-light"
-          style="background-color: #b2dfdb"
-        >
-          <div class="container-fluid">
-            <a class="navbar-brand" href="../">my learning history</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse mx-3"
-              id="navbarSupportedContent"
-            >
-              <ul class="navbar-nav mx-auto mb-0 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="../">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../web1/"
-                    >JavaScript</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active disabled" href="../web2/">PHP, Firebase</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../android/">Android</a>
-                </li>
-              </ul>
-            </div>
+      <nav
+        class="navbar navbar-expand-md navbar-light"
+        style="background-color: #b2dfdb"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../">my learning history</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse mx-3"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mx-auto mb-0 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../web1/">JavaScript</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active disabled" href="../web2/"
+                  >PHP, Firebase</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../android/">Android</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
       <!-- Navbar END -->
-      <!-- Breadcrumb start -->
-      <div>
-        <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="../">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">
-              PHP, Firebase
-            </li>
-          </ol>
-        </nav>
-      </div>
-      <!-- Breadcrumb end -->
     </header>
 
     <main>
-      <div>
-        <div class="my-3 p-3 shadow">
+      <div class="container-md">
+        <h1 class="m-3">PHP, Firebase</h1>
+        <div class="mb-3 p-3 shadow">
           <h3>作例</h3>
           <div class="card mb-3">
             <h5 class="card-header">オンラインショッピングサイト</h5>
@@ -237,7 +235,7 @@
             </div>
           </div>
         </div>
-        <div class="my-3 p-3 shadow">
+        <div class="mb-3 p-3 shadow">
           <h3>開発環境</h3>
           <ul>
             <li>
@@ -248,9 +246,9 @@
             </li>
           </ul>
         </div>
-        <div class="my-3 p-3 shadow">
+        <div class="mb-3 p-3 shadow">
           <h3>教材</h3>
-          <h6 class="card-subtitle">PHP, Vue.js, Nuxt.js</h6>
+          <h6 class="card-subtitle">PHP</h6>
           <ul>
             <li>
               確かな力が身につくPHP「超」入門<br />
@@ -259,11 +257,6 @@
             <li>
               スラスラわかるPHP　第2版<br />
               （著者：志田仁美、 出版社：翔泳社）
-            </li>
-            <li>
-              プロフェッショナルWebプログラミング Vue.js<br />
-              （著者：山田典明、長澤賢、関口勇樹
-              出版社：エムディエヌコーポレーション）
             </li>
           </ul>
           <h6 class="card-subtitle">Firebase</h6>
@@ -286,7 +279,7 @@
     <footer>
       <!-- Breadcrumb start -->
       <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
-        <ol class="breadcrumb">
+        <ol class="breadcrumb ms-3">
           <li class="breadcrumb-item"><a href="../">Home</a></li>
           <li class="breadcrumb-item active" aria-current="page">
             PHP, Firebase
@@ -303,21 +296,6 @@
       crossorigin="anonymous"
     ></script>
     <!-- lightbox2 -->
-    <link rel="stylesheet" href="../assets/css/lightbox.css" />
     <script src="../assets/js/lightbox-plus-jquery.js"></script>
   </body>
 </html>
-
-<style>
-  /* for lightbox2 */
-  .tmb-img {
-    margin: 1rem;
-    width: 10rem;
-    border-radius: 1rem;
-    box-shadow: 0.4rem 0.4rem 1rem #999;
-  }
-
-  .tmb-img-h {
-    width: 5rem;
-  }
-</style>

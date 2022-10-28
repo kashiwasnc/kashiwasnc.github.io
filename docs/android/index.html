@@ -11,10 +11,21 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!-- lightbox2 CSS -->
+    <link rel="stylesheet" href="../assets/css/lightbox.css" />
+    <style>
+      .tmb-img {
+        margin: 1rem;
+        width: 16%;
+        border-radius: 1rem;
+        box-shadow: 0.4rem 0.4rem 1rem #999;
+      }
+    </style>
+
     <title>my learning history | Android</title>
   </head>
 
-  <body class="container">
+  <body style="max-width: 720px">
     <header>
       <!-- Navbar start -->
       <nav
@@ -58,20 +69,12 @@
         </div>
       </nav>
       <!-- Navbar end -->
-      <!-- Breadcrumb start -->
-      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="../">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Android</li>
-        </ol>
-      </nav>
-      <!-- Breadcrumb end -->
     </header>
 
     <main>
-      <div>
-        <!-- 作例 start -->
-        <div class="my-3 p-3 shadow">
+      <div class="container-md">
+        <h1 class="m-3">Android</h1>
+        <div class="mb-3 p-3 shadow">
           <h3>作例</h3>
           <div class="card mb-3">
             <h5 class="card-header">the Lemonade app project</h5>
@@ -94,7 +97,7 @@
                   data-lightbox="lemonade"
                 >
                   <img
-                    class="tmb-img tmb-img-h"
+                    class="tmb-img"
                     src="./img/lemonade-1.png"
                     alt="レモンが３つ実っている木のイラスト"
                 /></a>
@@ -104,7 +107,7 @@
                   data-lightbox="lemonade"
                 >
                   <img
-                    class="tmb-img tmb-img-h"
+                    class="tmb-img"
                     src="./img/lemonade-3.png"
                     alt="カットレモンのイラスト"
                 /></a>
@@ -114,7 +117,7 @@
                   data-lightbox="lemonade"
                 >
                   <img
-                    class="tmb-img tmb-img-h"
+                    class="tmb-img"
                     src="./img/lemonade-4.png"
                     alt="一杯のレモネードのイラスト"
                 /></a>
@@ -124,7 +127,7 @@
                   data-lightbox="lemonade"
                 >
                   <img
-                    class="tmb-img tmb-img-h"
+                    class="tmb-img"
                     src="./img/lemonade-5.png"
                     alt="空のコップのイラスト"
                 /></a>
@@ -152,7 +155,7 @@
                   data-lightbox="dogglers"
                 >
                   <img
-                    class="tmb-img tmb-img-h"
+                    class="tmb-img"
                     src="./img/dogglers-0.png"
                     alt="最初の画面、３つの画面レイアウト選択ボタンが並ぶ"
                 /></a>
@@ -162,7 +165,7 @@
                   data-lightbox="dogglers"
                 >
                   <img
-                    class="tmb-img tmb-img-h"
+                    class="tmb-img"
                     src="./img/dogglers-v.png"
                     alt="垂直レイアウト画面"
                 /></a>
@@ -172,7 +175,7 @@
                   data-lightbox="dogglers"
                 >
                   <img
-                    class="tmb-img tmb-img-h"
+                    class="tmb-img"
                     src="./img/dogglers-h.png"
                     alt="水平レイアウト画面"
                 /></a>
@@ -182,7 +185,7 @@
                   data-lightbox="dogglers"
                 >
                   <img
-                    class="tmb-img tmb-img-h"
+                    class="tmb-img"
                     src="./img/dogglers-g.png"
                     alt="グリッドレイアウト画面"
                 /></a>
@@ -190,8 +193,8 @@
             </div>
           </div>
         </div>
-        <!-- 作例 end -->
-        <div class="my-3 p-3 shadow">
+
+        <div class="mb-3 p-3 shadow">
           <h3>開発環境</h3>
           <ul>
             <li>
@@ -202,7 +205,7 @@
             </li>
           </ul>
         </div>
-        <div class="my-3 p-3 shadow">
+        <div class="mb-3 p-3 shadow">
           <h3>教材</h3>
           <ul>
             <li>
@@ -223,7 +226,7 @@
     <footer>
       <!-- Breadcrumb start -->
       <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
-        <ol class="breadcrumb">
+        <ol class="breadcrumb ms-3">
           <li class="breadcrumb-item"><a href="../">Home</a></li>
           <li class="breadcrumb-item active" aria-current="page">Android</li>
         </ol>
@@ -238,21 +241,6 @@
       crossorigin="anonymous"
     ></script>
     <!-- lightbox2 -->
-    <link rel="stylesheet" href="../assets/css/lightbox.css" />
     <script src="../assets/js/lightbox-plus-jquery.js"></script>
   </body>
 </html>
-
-<style>
-  /* for lightbox2 */
-  .tmb-img {
-    margin: 1rem;
-    width: 10rem;
-    border-radius: 1rem;
-    box-shadow: 0.4rem 0.4rem 1rem #999;
-  }
-
-  .tmb-img-h {
-    width: 5rem;
-  }
-</style>
