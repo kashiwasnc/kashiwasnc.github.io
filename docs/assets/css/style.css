@@ -1,0 +1,8 @@
+body {
+  max-width: 960px;
+}
+
+.tmb-img {
+  margin: 1rem;
+  box-shadow: 0.4rem 0.4rem 1rem #999;
+}

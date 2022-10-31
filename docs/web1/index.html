@@ -13,23 +13,23 @@
     />
     <!-- lightbox2 CSS -->
     <link rel="stylesheet" href="../assets/css/lightbox.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
     <style>
       .tmb-img {
-        margin-bottom: 2rem;
-        max-width: 100%;
-        border-radius: 2rem;
-        box-shadow: 0.4rem 0.4rem 1rem #999;
+        max-width: 90%;
+        border-radius: 1rem;
       }
-    </style>
+      </style>
+
 
     <title>my learning history | JavaScript</title>
   </head>
 
-  <body style="max-width: 720px">
+  <body>
     <header>
       <!-- Navbar START -->
       <nav
-        class="navbar navbar-expand-sm navbar-light"
+        class="navbar navbar-expand-md navbar-light"
         style="background-color: #b2dfdb"
       >
         <div class="container-fluid">
@@ -72,7 +72,7 @@
     </header>
 
     <main>
-      <div class="container-md">
+      <div class="container-fluid">
         <h1 class="m-3">JavaScript</h1>
         <div class="mb-3 p-3 shadow">
           <h3>作例</h3>
@@ -82,16 +82,18 @@
               <p class="card-text">
                 為替レートAPIを利用して簡単な両替を行うアプリです
               </p>
-              <a
-                href="./img/zzz/currcalc.png"
-                data-title="Currency Calculator"
-                data-lightbox="currcalc"
-              >
-                <img
-                  class="tmb-img"
-                  src="./img//currcalc-tmb.png"
-                  alt="為替アプリイメージ"
-              /></a>
+              <div class="image-set">
+                <a
+                  href="./img/zzz/currcalc.png"
+                  data-title="Currency Calculator"
+                  data-lightbox="currcalc"
+                >
+                  <img
+                    class="tmb-img"
+                    src="./img//currcalc-tmb.png"
+                    alt="為替アプリイメージ"
+                /></a>
+              </div>
               <p class="card-text small">
                 Web:
                 <a href="https://kashwasn.web.app/currency-calc/"
